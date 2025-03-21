@@ -1,0 +1,187 @@
+*{
+    font-family: "AudioWide", sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 15px;
+    margin-right: 180px;
+}
+
+li {
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.Icone {
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+body {
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+}
+ul li.Ativo .txt{
+    color: rgb(112, 201, 124);
+}
+
+
+.icon-text {
+    display: flex;
+    align-items: center; /* Isso centraliza verticalmente o conteúdo do span */
+    font-size: 30px; /* Tamanho do texto */
+    margin-top:15px;
+    margin-left: 220px;
+    color: rgb(107, 182, 113);
+}
+
+/* Opcional: Estilize a imagem */
+.icon-text img {
+    width: 40px; /* Largura da imagem */
+    height: auto; /* Altura automática, mantendo a proporção original */
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+    
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-left: 0px;
+    margin-top: 40vh;
+}
+
+.types ul li a .txt:hover{
+    color: rgb(51, 100, 46);
+    text-decoration: underline;
+    text-decoration-color: #805f39;
+    text-decoration-thickness: 8px;
+    text-underline-offset: 10px;
+}
+
+.Project{
+    text-align:center;
+    margin-top: 150px;
+    font-family:"Teko",Arial ;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.Stars{
+    text-align: center;
+    color: rgb(241, 212, 83);
+    margin-top: 0px;
+}
+
+.types .tipos {
+    justify-content: center; /* Centraliza horizontalmente os itens */
+    margin-left:175px;
+    margin-top: 100px;
+}
+.gb {
+    width: 236px;
+    height: 236px;
+    margin-left: 20px;
+    margin-top: 100px;
+    background-color: aqua;
+
+}
+.gb1{
+    width: 236px;
+    height: 236px;
+    margin-left: 275px;
+    margin-top: 100px;
+
+}
+#expandedImage {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+      z-index: 9999; /* Garante que a imagem expandida fique sobreposta */
+    }
+
+    #expandedImage img {
+      max-width: 1000px;
+      max-height: 1000px;
+    }
+
+    /* Estilo para a imagem original */
+    .thumbnail {
+      cursor: pointer;
+    }
+
+    /* Evita que as miniaturas afetem a sobreposição da imagem expandida */
+    body {
+      margin: 0;
+      overflow-x: hidden;
+    }
+    #closeIcon {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+      }
+#expandedImage img {
+    max-width: 600px;
+    max-height: 600px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Espaço entre as colunas */
+  }
+
+  .grid-item {
+    width: 236px;
+    height: 236px;
+    background-color: #f0f0f0;
+    padding: 10px;
+ }
+.gb2{
+    margin-left: 275px;
+    margin-top: 20px;
+}
+.gb3{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.gb4{
+    margin-left: 275px;
+    margin-top: 20px;
+}
+.gb5{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.titer{
+   margin-left: 200px;
+   margin-top: 100px;
+
+}

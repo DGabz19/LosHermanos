@@ -1,0 +1,197 @@
+*{
+    font-family: "AudioWide", sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 15px;
+    margin-right: 180px;
+}
+
+li {
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.Icone {
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+body {
+    height: 1vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+ul li.Ativo .txt{
+    color: rgb(112, 201, 124);
+}
+
+.icon-text {
+    display: flex;
+    align-items: center; /* Isso centraliza verticalmente o conteúdo do span */
+    font-size: 25px; /* Tamanho do texto */
+    margin-top:15px;
+    margin-left: 220px;
+    color: rgb(107, 182, 113);
+}
+
+/* Opcional: Estilize a imagem */
+.icon-text img {
+    width: 40px; /* Largura da imagem */
+    height: auto; /* Altura automática, mantendo a proporção original */
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+    
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-left: 0px;
+    margin-top: 10vh;
+}
+
+ul li a .txt:hover{
+    color: white;
+    background-color: rgb(107, 182, 113);
+    padding: 5px;
+    border-radius: 15px 15px 15px 15px;
+    
+}
+
+.canvas {
+    background-color: #776447;
+    top: 0;
+    margin-top: 50px;
+    margin-left: 479px;
+    top: 0;
+}
+
+
+.background-right {
+    position:absolute;
+    width: 380px;
+    height: 470px;
+    margin-left: 969px;
+    margin-top: 200px;
+    background-color: #222222; /* Cor para a parte direita */
+    z-index: 0; /* Ajuste o índice Z conforme necessário */
+    
+}
+.container {
+    position: relative;
+    z-index: 1;
+}
+.inf{
+    color: rgb(255, 255, 255);
+    font-family:"Acme", sans-serif;
+    margin-top: 50px;
+    z-index: 1;
+    margin-left: 50px;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+.ima{
+    color: white;
+    cursor: default;
+    margin-left: 0px;
+    margin-top: 60px;
+}
+.ops{
+    color: white;
+    cursor: default;
+    font-size: 20px;
+    font-family: "Acme",sans-serif;
+}
+
+ul li a .try:hover{
+    cursor:default;
+    .ops{
+        color:rgb(255, 255, 255);
+    }
+    .img{
+        color: rgb(255, 255, 255);
+    }
+}
+
+.pm{
+    display: block;
+}
+.pm li{
+    margin-bottom: 50px;
+    text-decoration: none;
+    list-style: none;
+}
+
+form label,
+form input,
+form textarea {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border: 2px solid #527a52;
+    border-radius: 15px;
+    width: 100%;
+    position: static;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #444;
+}
+.content {
+    display: flex; /* Exibe os elementos lado a lado */
+    align-items: flex-start; /* Alinha os elementos verticalmente ao topo */
+    justify-content: space-between; /* Cria espaço entre os elementos */
+    padding: 20px;
+    max-width: 800px; /* Define uma largura máxima para o container */
+
+}
+.form {
+    margin-top: 200px;
+    width: 60%; /* Define a largura do formulário */
+    margin-left: 250px;
+}
+.tet{
+    white-space: nowrap; /* Evita que o texto quebre em várias linhas */
+    overflow: hidden; /* Oculta qualquer conteúdo excedente que não caiba na largura */
+    text-overflow: ellipsis;
+}
+
+.thanks{
+    font-size: 15px;
+}

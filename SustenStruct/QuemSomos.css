@@ -1,0 +1,135 @@
+*{
+    font-family: "AudioWide", sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 15px;
+    margin-right: 180px;
+}
+
+li {
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.Icone {
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+body {
+    height: 220vh;
+    margin: 0;
+    padding: 0;
+}
+ul li.Ativo .txt{
+    color: rgb(112, 201, 124);
+}
+
+.icon-text {
+    display: flex;
+    align-items: center; /* Isso centraliza verticalmente o conteúdo do span */
+    font-size: 25px; /* Tamanho do texto */
+    margin-top:15px;
+    margin-left: 220px;
+    color: rgb(107, 182, 113);
+}
+
+/* Opcional: Estilize a imagem */
+.icon-text img {
+    width: 40px; /* Largura da imagem */
+    height: auto; /* Altura automática, mantendo a proporção original */
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-left: 0px;
+    
+}
+
+ul li a .txt:hover{
+    color: white;
+    background-color: rgb(107, 182, 113);
+    padding: 5px;
+    border-radius: 15px 15px 15px 15px;
+    
+}
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.image-card {
+    width: 10%;
+    margin-bottom: 20px;
+
+}
+
+.image-card img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.image-card p {
+    margin-top: 10px;
+    margin-left: 14px;
+}
+
+/* Estilos para ícones pequenos e próximos */
+.icon {
+    width: 100px;
+    height: 20px;
+    margin-right: 5px;
+}
+.titer{
+    margin-left: 530px;
+    margin-top: 60px;
+
+    
+}
+.test{
+    margin-left: 20px;
+    text-align: justify;
+    text-justify: inter-word; /* Opcional: melhora a justificação entre palavras */
+    max-width: 900px; /* Define a largura máxima do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+    line-height: 1.6;
+    font-family: "Smooch Sans", sans-serif;
+    margin-bottom: 80px;
+    font-size: 25px;
+}
+#frase{
+    font-style:italic;
+    color: rgb(99, 175, 112);
+    margin-left: 270px;
+}
+.pica{
+    margin-left: 350px;
+    margin-bottom: 50px;
+}

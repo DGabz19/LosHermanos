@@ -1,0 +1,116 @@
+@font-face {
+    font-family:'Batman';
+    src: url(Race\ Sport.ttf);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0px;
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 15px;
+    margin-right: 180px;
+}
+
+li {
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.Icone {
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+ul li.Ativo .txt{
+    color: rgb(151, 64, 185);
+}
+
+.icon-text {
+    display: flex;
+    align-items: center; /* Isso centraliza verticalmente o conteúdo do span */
+    font-size: 15px; /* Tamanho do texto */
+    font-family:'Batman';
+    margin-top:25px;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+}
+
+/* Opcional: Estilize a imagem */
+.icon-text img {
+    width:70px; /* Largura da imagem */
+    height: auto; /* Altura automática, mantendo a proporção original */
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-left: 0px;
+    
+}
+
+ul li a .txt:hover{
+    color: rgb(151, 64, 185);
+    
+}
+.inicio{
+    position: absolute;
+    top: 42%;
+    left: 35%;
+    z-index: 1;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Eagle Lake", serif;
+    font-size: 90px;
+    color: rgb(132, 194, 132);
+
+    
+}
+#down{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    z-index: 1;
+    margin-top: 120px;
+    color: white;
+    font-family: "Eagle Lake", serif;
+    align-items: center;
+
+}
+.assunto{
+    text-align: justify;
+    text-justify: inter-word; /* Opcional: melhora a justificação entre palavras */
+    max-width: 650px; /* Define a largura máxima do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+    line-height: 1.6; /
+}
+.mgs{
+    font-family: "Eagle Lake", serif;
+    font-size: 20px;;
+}
+.titule{
+    font-family: "Eagle Lake", serif;
+    font-size: 30px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="stylesheet" href="portifolio.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Teko&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="Main">
+        <nav class="Lateral">
+            <div class="container">
+                <span class="icon-text">
+                    <img src="Pica-pau.png"> BioStrutura
+                </span>
+                <ul>
+                    <li class="Item">
+                        <a href="#" onclick="mudarPagina('Index.html')">
+                            <span class="txt">Início</span>
+                        </a>
+                    </li>
+                    <li class="Item">
+                        <a href="#" onclick="mudarPagina('QuemSomos.html')">
+                            <span class="txt">Quem Somos</span>
+                        </a>
+                    </li>
+                    <li class="Item">
+                        <a href="#" onclick="mudarPagina('Contatos.html')">
+                            <span class="txt">Contatos</span>
+                        </a>
+                    </li>
+                    <li class="Item Ativo">
+                        <a href="#">
+                            <span class="txt">Portifólio</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            
+            
+            
+            <div class="types">
+                <h1 class="Project">Nossos Projetos</h1>
+                <h2 class="Stars"> ★  ★  ★  ★  ★</h2>
+                <ul class="tipos">
+                    <li class="Slide Ativo">
+                        <a href="#" onclick="mudarPagina('')">
+                            <span class="txt">IMAGENS</span>
+                        </a>
+                    </li>
+                    <li class="Slide">
+                        <a href="#" onclick="mudarPagina('video.html')">
+                            <span class="txt">VÍDEOS</span>
+                        </a>
+                    </li>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid-container">
+                <div class="grid-container">
+                    <img src="Design sem nome (10).png" alt="Imagem" class="thumbnail grid-item gb1" onclick="expandImage(this)">
+                    <img src="Design sem nome (13).png" alt="Imagem" class="thumbnail grid-item gb" onclick="expandImage(this)">
+                    <img src="Design sem nome (8).png" alt="Imagem" class="thumbnail grid-item gb" onclick="expandImage(this)" id="lasd">
+                    <img src="Design sem nome (15).png" alt="Imagem" class="thumbnail grid-item gb2" onclick="expandImage(this)">
+                    <img src="Design sem nome (16).png" alt="Imagem" class="thumbnail grid-item gb3" onclick="expandImage(this)">
+                    <img src="Design sem nome (17).png" alt="Imagem" class="thumbnail grid-item gb3" onclick="expandImage(this)" id="lasd">
+                    <img src="Design sem nome (21).png" alt="Imagem" class="thumbnail grid-item gb4" onclick="expandImage(this)">
+                    <img src="Design sem nome (19).png" alt="Imagem" class="thumbnail grid-item gb5" onclick="expandImage(this)">
+                    <img src="Design sem nome (20).png" alt="Imagem" class="thumbnail grid-item gb5" onclick="expandImage(this)" id="lasd">
+                </div>
+        
+                <!-- Imagem expandida -->
+                <div id="expandedImage" onclick="collapseImage()">
+                    <div id="closeIcon" onclick="collapseImage()">X</div>
+                    <img id="expandedImg" alt="Imagem expandida">
+                </div>
+            </div>
+        </nav>
+
+        <script src="menu.js"></script> 
+    </div>
+    <footer>
+        <p>&copy; BioStrutura. Todos os direitos reservados. 2023</p>
+    </footer>
+</body>
+</html>

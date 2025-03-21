@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="stylesheet" href="Contatos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Acme&display=swap">
+</head>
+<body>
+    <div class="Main">
+        <nav class="Lateral">
+            <div class="container">
+                <span class="icon-text">
+                    <img src="Pica-pau.png"> BioStrutura
+                </span>
+                <ul>
+                    <li class="Item">
+                        <a href="#" onclick="mudarPagina('Index.html')">
+                            <span class="txt">Início</span>
+                        </a>
+                    </li>
+                    <li class="Item">
+                        <a href="#" onclick="mudarPagina('QuemSomos.html')">
+                            <span class="txt">Quem Somos</span>
+                        </a>
+                    </li>
+                    <li class="Item Ativo">
+                        <a href="#">
+                            <span class="txt">Contatos</span>
+                        </a>
+                    </li>
+                    <li class="Item">
+                        <a href="#" onclick="mudarPagina('Portifólio.html')">
+                            <span class="txt">Portifólio</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="background-right">
+        <h3 class="inf">Informações</h3>
+        <ul class="pm">
+            <li class="try">
+                <a href="#">
+                <span class="ima"><i class="bi bi-envelope-at"></i></span>
+                <span class="ops">biostrutura.eco@gmail.com</span>
+                </a>
+            </li>
+            <li class="try">
+                <a href="#">
+                <span class="ima"><i class="bi bi-telephone"></i></span>
+                <span class="ops">(85) 91212-8190</span>
+                </a>
+            </li>
+            <li class="try">
+                <a href="#">
+                <span class="ima"><i class="bi bi-buildings"></i></i></span>
+                <span class="ops">Rua Belas, 95</span>
+                </a>
+            </li>
+            <li class="try">
+                <a href="#">
+                <span class="ima"><i class="bi bi-clock"></i></i></span>
+                <span class="ops">08:00 - 19:00</span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+    
+    <div class="content">
+       
+        <form id=formulario-contato class="form" action="https://formsubmit.co/gabyalbuquerquesevero@gmail.com" method="POST" >
+            <h2 class="tet">Formulário de Contato</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/obg.html">
+            <button type="submit">Enviar</button>
+            
+            <p id="textoVisivel" style="display: none;">Obrigada!.</p>
+            
+        </form>
+        <canvas id="Brown" class="canvas canvas2" width="300" height="700"></canvas>
+    </div>
+    <script src="menu.js"></script>
+    <script src="//fbstore.sendpulse.com/loader.js" data-sp-widget-id="8c5a7343-1afe-4fca-9468-6377283d9579" async></script>
+    </div>
+    <footer>
+        <p>&copy; BioEstrutura. Todos os direitos reservados. 2023</p>
+    </footer>
+</body>
+</html>
